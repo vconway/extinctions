@@ -1,0 +1,10 @@
+<h1> Extinctions Assignment by Vance Conway </h1>
+
+ <p> We have <%=  @classifications.count %> classifications </p>
+<%= @classifications.each do |classification| %>
+
+<p>We have a <% link_to(classification.name) %>
+
+<% end %>
+
+
